@@ -1,0 +1,242 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+@font-face {
+  font-family: OpenSans-Extrabold;
+  src: url(../fonts/Open-Sans-Extrabold/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/Open-Sans-Extrabold/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-bold;
+  src: url(../fonts/Open-Sans-Extrabold/OpenSans-Bold.ttf);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.background-container {
+  background-image: url("../Imatges/Fons2.jpg");
+  background-size: cover;
+  background-color: aqua;
+  width: 45%;
+  height: 100%;
+}
+
+.general-header {
+  /* background-color: bisque; */
+  margin: 6% 6% 0% 6%;
+}
+
+.subheader{
+  /* background-color: bisque; */
+  margin: 6% 6% 0% 6%;
+  color: white;
+  display: flex;
+}
+
+.subheaderContentBlock-1{
+  margin: 0% 10% 0% 0%;
+}
+
+.subheaderContentBlock-1 > h4, .subheaderContentBlock-2 > h4, .subheaderContentBlock-3 > h4{
+  font-family: OpenSans-ExtraBold;
+}
+
+.subheaderContentBlock-1 > p, .subheaderContentBlock-2 > p, .subheaderContentBlock-3 > p{
+  font-family: OpenSans-Regular;
+}
+
+.subheaderContentBlock-2{
+  margin: 0% 20% 0% 0%;
+}
+
+/* .info-subheader{
+   background-color: antiquewhite; 
+} */
+
+.info-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 20% 0% 0%;
+  color: white;
+  font-family: OpenSans-Regular;
+  font-size: small;
+}
+
+.titles{
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 20% 0% 0%;
+  font-family: OpenSans-ExtraBold;
+  color: white;
+}
+
+
+
+.title-gheader {
+  font-size: 250%;
+  font-family: OpenSans-Extrabold;
+}
+.element-1 {
+  justify-content: space-evenly;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+.number {
+  font-family: OpenSans-Regular;
+}
+
+img {
+  float: right;
+}
+
+table, tr, td, th{
+  padding: 1%;
+  font-family: OpenSans-Regular;
+  color: #2a3055;
+}
+
+table{
+  margin: 25% 0% 0% 0% ;
+  padding: 0% 5% 0% 5%;
+  width: 100%;
+  text-align: center;
+}
+
+th{
+  width: 10%;
+  font-family: OpenSans-Extrabold;
+}
+
+#col1{
+  text-align: left;
+}
+#titleTable1{
+  text-align: left  ;
+}
+
+#titleTable1, #titleTable2, #titleTable3,#titleTable4{
+  padding: 1%;
+}
+
+tr:nth-child(even) {
+  background: #e6e6e6
+}
+
+.paymentContainer{
+  display: flex;
+  justify-content: space-between;
+  color: #2a3055;
+  /* background-color: aqua; */
+}
+
+.infoContainer1{
+  /* background-color: bisque; */
+  font-family: OpenSans-Regular;
+  margin: 3% 0% 0% 5%;
+}
+
+.infoContainer1 > h3{
+  font-family: OpenSans-Extrabold;
+}
+
+.ContentInfoContainer2-1{
+  font-family: OpenSans-Extrabold;
+}
+
+.infoContainer2{
+  display: flex;
+  margin: 3% 15% 0% 0%;
+  /* background-color: aquamarine; */
+  font-family: OpenSans-Regular;
+}
+
+.ContentInfoContainer2-2{
+  margin: 0% 0% 0% 35%;
+  padding: 0% 0% 0% 10%;
+  /* background-color: blue; */
+
+}
+
+.ContentInfoContainer2-2 > .price1{
+  margin-top: 5%;
+  font-family: OpenSans-Regular;
+}
+
+.ContentInfoContainer2-2 > .price2{
+  margin-top: 10%;
+  font-family: OpenSans-Regular;
+}
+
+.ContentInfoContainer2-2 > .price3{
+  margin: 10% 0% 0% 0%;
+  font-family: OpenSans-Regular;
+}
+
+.TermsandConditions{
+  /* background-color: aqua; */
+  margin: 3% 0% 0% 0%;
+  color: #2a3055;
+}
+
+.TermsandConditions > h3{
+  font-family: OpenSans-Extrabold;
+  margin: 0% 0% 0% 5%
+}
+
+.TermsandConditions > p{
+  font-family: OpenSans-Regular;
+  margin: 0% 0% 0% 5%;
+  width: 90.1%;
+}
+
+.footer{
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content:right;
+  margin: 5% 0% 2% 10%;
+  color: #2a3055;
+}
+
+.footer > .webfooter{
+  font-family: OpenSans-Extrabold;
+}
+
+.iconsfooter{
+  margin: 0.5% 7% 0% 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.fa-twitter{
+  margin: 0% 0% 0% 40%;
+}
+
+.fa-instagram{
+  margin: 0% 0% 0% 40%;
+}
+
+.webfooter{
+  margin: 0% 3% 0% 0%;
+}
+
+
+
+
+
