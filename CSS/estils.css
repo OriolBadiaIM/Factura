@@ -250,10 +250,19 @@ tr:nth-child(even) {
     color: white;
   }
 
+  body {
+
+    background-color: rgb(1, 20, 37);
+  }
+
   .background-container {
     background-image: url("../Imatges/5559852.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-color: aqua;
+    height: 100%;
+    overflow: hidden;
     width: 100%;
     height: 100%;
   }
