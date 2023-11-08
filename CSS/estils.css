@@ -125,7 +125,7 @@ th {
   font-family: OpenSans-Extrabold;
 }
 
-#col1 {
+.col1 {
   text-align: left;
 }
 
@@ -139,6 +139,7 @@ th {
 #titleTable4 {
   padding: 1%;
 }
+
 
 tr:nth-child(even) {
   background: #e6e6e6
